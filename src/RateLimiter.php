@@ -12,7 +12,7 @@ class RateLimiter
     private int $decaySeconds;
     private StorageInterface $storage;
 
-    public function __construct(string $key = 'guest', int $maxAttempts = 10, int $decaySeconds = 60, StorageInterface $storage = null)
+    public function __construct(string $key = 'guest', int $maxAttempts = 10, int $decaySeconds = 60, ?StorageInterface $storage = null)
     {
         $this->setKey($key);
         $this->setMaxAttempts($maxAttempts);
