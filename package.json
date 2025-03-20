@@ -1,0 +1,9 @@
+{
+    "name": "agussuroyo-rate-limiter",
+    "description": "A simple and flexible rate limiter for PHP",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+      "semantic-release": "^24.2.3"
+    }
+  }
